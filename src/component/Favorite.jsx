@@ -1,5 +1,5 @@
 import ProductCard from "./ProductCard";
-// 1. DATA PRODUK (Simpan di luar fungsi biar rapi)
+
 const products = [
   { id: 1, name: "Curry Rice", japaneseName: "カレーライス", price: "$9.00", image: "/src/assets/Karee.png" },
   { id: 2, name: "Sushi Set", japaneseName: "寿司", price: "$4.00", image: "/src/assets/Shushi.png" },
