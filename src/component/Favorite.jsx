@@ -16,7 +16,7 @@ export default function FavoriteSection() {
   return (
     <section className="bg-black py-20 px-[48px]">
       
-      {/* 2. BAGIAN HEADER (Judul Inggris & Jepang) */}
+
       <div className="flex justify-between items-center mb-12 border-b border-neutral-800 pb-6">
         
         <div>
@@ -35,7 +35,6 @@ export default function FavoriteSection() {
       </div>
 
 
-      {/* 3. BAGIAN GRID (Tempat naruh kartu-kartu ProductCard) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
         
         {products.map((product) => (

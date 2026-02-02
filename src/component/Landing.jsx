@@ -46,7 +46,6 @@ export default function Landing() {
 
         </div>
 
-        {/* RIGHT (kosong dulu / nanti gambar ramen) */}
         <div className="w-1/2"></div>
         
 

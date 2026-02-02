@@ -1,6 +1,5 @@
 import FeatureItem from "./FeatureItem";
 
-// Import Assets
 import icon1 from "../assets/for1.svg";
 import icon2 from "../assets/for2.svg";
 import icon3 from "../assets/for3.svg";
@@ -20,13 +19,12 @@ const featuresRight = [
 export default function FeatureSection() {
   return (
     <section className="w-full bg-black py-20">
-      {/* px-12 inilah yang membuat margin kiri-kanan 48px */}
+
       <div className="max-w-[1440px] mx-auto px-12 flex flex-col lg:flex-row gap-16 items-center">
         
-        {/* SISI KIRI: Konten Teks & Tombol */}
+
         <div className="flex-1">
           
-          {/* Judul Besar */}
           <div className="flex flex-wrap gap-x-20 gap-y-6 mb-16">
             <h2 className="text-4xl font-bold uppercase tracking-tighter leading-tight font-korosu">
               Authentic <br /> <span className="text-white">Japanese Flavors</span>
@@ -36,7 +34,6 @@ export default function FeatureSection() {
             </h2>
           </div>
 
-          {/* Grid Fitur */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-12 mb-16">
             <div className="space-y-12">
               {featuresLeft.map((item, i) => (
@@ -50,13 +47,12 @@ export default function FeatureSection() {
             </div>
           </div>
 
-          {/* Tombol Order */}
+
           <button className="bg-[#FF2626] hover:bg-red-700 transition-all duration-300 px-12 py-4 rounded-full text-white font-bold text-lg shadow-xl shadow-red-600/10">
             Order Now!
           </button>
         </div>
 
-        {/* SISI KANAN: Gambar Sushi */}
         <div className="flex-shrink-0">
           <div className="relative group">
             <div className="rounded-[40px] overflow-hiddenshadow-2xl transition-transform duration-700 group-hover:scale-[1.03]">
