@@ -1,14 +1,14 @@
 import ProductCard from "./ProductCard";
 
 const products = [
-  { id: 1, name: "Curry Rice", japaneseName: "カレーライス", price: "$9.00", image: "/src/assets/Karee.png" },
-  { id: 2, name: "Sushi Set", japaneseName: "寿司", price: "$4.00", image: "/src/assets/Shushi.png" },
-  { id: 3, name: "Gyudon", japaneseName: "牛丼", price: "$10.00", image: "/src/assets/Gyudon.png" },
-  { id: 4, name: "Udon", japaneseName: "うどん", price: "$8.00", image: "/src/assets/Udon.png" },
-  { id: 5, name: "Ramen", japaneseName: "ラーメン", price: "$9.00", image: "/src/assets/ramen.png" },
-  { id: 6, name: "Tempura", japaneseName: "天ぷら", price: "$4.00", image: "/src/assets/tempura.png" },
-  { id: 7, name: "Sashimi", japaneseName: "刺身", price: "$5.00", image: "/src/assets/sashimi.png" },
-  { id: 8, name: "Onigiri", japaneseName: "おにぎり", price: "$4.00", image: "/src/assets/onigiri.png" },
+  { id: 1, name: "Curry Rice", japaneseName: "カレーライス", price: "$9.00", image: "/Karee.png" },
+  { id: 2, name: "Sushi Set", japaneseName: "寿司", price: "$4.00", image: "/Shushi.png" },
+  { id: 3, name: "Gyudon", japaneseName: "牛丼", price: "$10.00", image: "/Gyudon.png" },
+  { id: 4, name: "Udon", japaneseName: "うどん", price: "$8.00", image: "/Udon.png" },
+  { id: 5, name: "Ramen", japaneseName: "ラーメン", price: "$9.00", image: "/ramen.png" },
+  { id: 6, name: "Tempura", japaneseName: "天ぷら", price: "$4.00", image: "/tempura.png" },
+  { id: 7, name: "Sashimi", japaneseName: "刺身", price: "$5.00", image: "/sashimi.png" },
+  { id: 8, name: "Onigiri", japaneseName: "おにぎり", price: "$4.00", image: "/onigiri.png" },
 ];
 
 export default function FavoriteSection() {
